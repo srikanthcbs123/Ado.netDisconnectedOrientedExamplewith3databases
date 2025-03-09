@@ -1,0 +1,6 @@
+@Ado.netDisconnectedOrientedExamplewith3databases_HostAddress = http://localhost:5238
+
+GET {{Ado.netDisconnectedOrientedExamplewith3databases_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

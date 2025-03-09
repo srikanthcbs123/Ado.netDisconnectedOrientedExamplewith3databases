@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ado.netDisconnectedOrientedExample", "Ado.netDisconnectedOrientedExamplewith3databases\Ado.netDisconnectedOrientedExample.csproj", "{A0820C2E-6C9A-4954-9E94-8D0A3B0A50FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0820C2E-6C9A-4954-9E94-8D0A3B0A50FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0820C2E-6C9A-4954-9E94-8D0A3B0A50FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0820C2E-6C9A-4954-9E94-8D0A3B0A50FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0820C2E-6C9A-4954-9E94-8D0A3B0A50FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E807B37-2E4B-4EE8-B8C8-F43124293FBE}
+	EndGlobalSection
+EndGlobal
