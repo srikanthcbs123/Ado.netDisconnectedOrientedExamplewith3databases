@@ -10,7 +10,8 @@ namespace Ado.netDisconnectedOrientedExamplewith3databases.Controllers
     public class EmployeeController : ControllerBase
     {
         IEmployeeService _empservice;
-        //EmployeeService obj = new EmployeeService();tightcouplyed
+        //EmployeeService obj = new EmployeeService();tightcouplyed coupled with service layer
+        //To avoid this one we cn go for constructor injection.
 
         public EmployeeController(IEmployeeService empservice)
         {
@@ -123,6 +124,10 @@ namespace Ado.netDisconnectedOrientedExamplewith3databases.Controllers
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "server not found");
             }
+        }
+        private string getdata()
+        {
+            return "hello";
         }
     }
 }
