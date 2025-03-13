@@ -3,7 +3,7 @@
     public static class Storedprocedures
     {
         #region DepartmentDetails
-        public static readonly string AddDepartment = "Usp_AddDepartment";
+        public static readonly string AddDepartment = "Usp_AddDepartment_WithoutReturn";
         public static readonly string UpdateDepartment = "Usp_UpdateDepartment";
         public static readonly string DeleteDepartment = "Usp_DeleteDepartment";
         public static readonly string GetDepartment = "Usp_GetDepartment";

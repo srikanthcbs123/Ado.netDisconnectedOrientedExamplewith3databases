@@ -1,3 +1,6 @@
+using Ado.netDisconnectedOrientedExample.Interfaces;
+using Ado.netDisconnectedOrientedExample.Repositories;
+using Ado.netDisconnectedOrientedExample.Services;
 using Ado.netDisconnectedOrientedExamplewith3databases.Connection;
 using Ado.netDisconnectedOrientedExamplewith3databases.Interfaces;
 using Ado.netDisconnectedOrientedExamplewith3databases.Repositories;
@@ -13,6 +16,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+
+builder.Services.AddScoped<IDepartmentRepository, DepertmentRepository>();
+builder.Services.AddScoped<IDepartmentService, DepartmentServices>();
+
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IOrderService,OrderServices>();
 builder.Services.AddSingleton<IDatabaseConnectionFactory, ConnectionFactory>();
 //it will create only one object that object is used for entire application.
 var app = builder.Build();

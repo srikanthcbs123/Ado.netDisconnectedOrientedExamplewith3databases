@@ -8,7 +8,7 @@ namespace Ado.netDisconnectedOrientedExamplewith3databases.Repositories
 {
     public class EmployeeRepository : IEmployeeRepository
     {
-        //  string connectionstring="yorconnection string";(do't use the connection string like this.
+        //  string connectionstring="yorconnection string";(don't use the connection string like this).
         //alway read the connectionstring from "appsettings.json";
         private readonly IDatabaseConnectionFactory _connectionFactory;
         public EmployeeRepository(IDatabaseConnectionFactory databaseConnectionFactory)
@@ -16,6 +16,7 @@ namespace Ado.netDisconnectedOrientedExamplewith3databases.Repositories
             this._connectionFactory = databaseConnectionFactory;
         }
 
+      
         public async Task<int> AddEmployes(Employee empdetail)
         {
             using (SqlConnection con = _connectionFactory.HotelmanagementsqlConnectionString())
